@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.music.MainActivity">
+
+    <TextView
+        android:id="@+id/rock_category"
+        android:text="@string/rock_category"
+        style="@style/MusicCategory"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/pop_category"
+        style="@style/MusicCategory"
+        android:background="#FFA500"
+        android:text="@string/pop_category"/>
+
+    <TextView
+        android:id="@+id/hip_hop_category"
+        style="@style/MusicCategory"
+        android:background="#FF0000"
+        android:text="@string/hip_hop_category"/>
+
+    <TextView
+        android:id="@+id/electronic_category"
+        style="@style/MusicCategory"
+        android:background="#C8A2C8"
+        android:text="@string/electronic_category"/>
+
+</LinearLayout>

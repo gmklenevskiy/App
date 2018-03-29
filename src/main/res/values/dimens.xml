@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "for_padding">16dp</dimen>
+    <dimen name = "list_item_padding">15dp</dimen>
+    <dimen name = "width_for_layout">0dp</dimen>
+    <dimen name = "image_width">50dp</dimen>
+    <dimen name = "image_height">50dp</dimen>
+</resources>
